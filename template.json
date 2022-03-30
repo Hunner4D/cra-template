@@ -1,0 +1,30 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.3",
+      "@testing-library/react": "^12.1.4",
+      "@testing-library/user-event": "^13.5.0",
+      "lodash": "^4.17.21",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-redux": "^7.2.6",
+      "react-router-dom": "^6.2.2",
+      "react-scripts": "5.0.0",
+      "redux": "^4.1.2",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "BROWSER=none react-scripts start",
+      "build": "react-scripts build",
+      "compile:sass": "node-sass src/styles/scss/main.scss src/styles/css/index.css",
+      "watch:sass": "node-sass src/styles/scss/main.scss src/styles/css/index.css -w",
+      "test": "react-scripts test"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    },
+    "devDependencies": {
+      "node-sass": "^7.0.1"
+    }
+  }
+}
