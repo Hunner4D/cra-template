@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Root from "./Root";
 
-import App from "./react/app";
+import App from "./react/App";
 import "./styles/css/index.css";
 
 ReactDOM.render(
